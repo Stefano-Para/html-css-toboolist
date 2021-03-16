@@ -5,6 +5,10 @@
 } */
 /* devo farlo? se si, perchè?  */
 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 /* common  */
 .radius {
     display: inline-block;
