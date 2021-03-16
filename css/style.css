@@ -1,11 +1,23 @@
-* {
+/* * {
 	Box-sizing: border-box;
 	Margin: 0;
 	Padding: 0;
-}
-
+} */
+/* devo farlo? se si, perchè?  */
 
 /* common  */
+.radius {
+    display: inline-block;
+    font: 400 13.3333px Arial;
+    border-style: outset;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.blue {
+    background-color: royalblue;
+    color: white;
+}
 
 
 /* header  */
@@ -64,7 +76,22 @@ hr {
     border-color: #d3d3d329;
 }
 
-/* section grossa  */
+/* section 2 grossa - comprensiva di 3 ramificazioni */
 .section02 {
-    
+    padding: 10px;
+    margin: 5px 30px;
 }
+
+.arrow {
+    width: 3px;
+}
+
+/* div 1/3 parte section 02 */
+
+ul {
+    list-style-image: url('sqpurple.gif');
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
