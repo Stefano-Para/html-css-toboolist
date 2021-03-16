@@ -1,15 +1,12 @@
-/* *   {
+* {
 	Box-sizing: border-box;
 	Margin: 0;
 	Padding: 0;
 }
-Perchè dovrei sempre metterlo? Posso preferire inserire regole per ogni tag?
-*/
+
 
 /* common  */
-.blue {
-    background-color: rgb(90, 90, 236);
-}
+
 
 /* header  */
 .inline-b {
@@ -26,25 +23,50 @@ img, h1 {
 
 /* main - contenitore 1 */
 main {
-  background: #d3d3d3d0; 
-  height: 1000px; 
+  background: #d3d3d3d0;
+  width: 90%; 
+  margin: 10px;
+  padding: 15px; 
 }
 
 /* contenitore 2 */
 #section01 {
     background: white;
-    height: 80%;
     width: 80%;
-    display: inline-block;
-    margin: 20px 50px;
+    margin: 25px auto;
     border-radius: 5px;
 }
 
 /* header del contenitore 2 */
 #header02 {
-    margin: 15px 30px;
+    padding: 10px;   
+    margin: 5px 30px;
 }
 
+/* button header  */
 button {
+    padding: 5px;
     border-radius: 5px;
+}
+
+#button-task {
+    color: white;
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+#button-sect {
+    color: lightgrey;
+    background-color: white;
+    border-color: lightgrey;
+}
+
+hr {
+    border-color: #d3d3d329;
+}
+
+/* section grossa  */
+
+.section02 {
+    
 }
