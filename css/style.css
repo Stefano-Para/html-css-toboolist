@@ -13,11 +13,48 @@
     padding: 5px;
     border-radius: 10px;
 }
-
+/* colori dei radius  */
 .blue {
     background-color: royalblue;
     color: white;
 }
+
+.teal {
+    background-color: teal;
+    color: white;
+}
+
+.violet {
+    background-color: rgb(143, 0, 143);
+    color: white;
+}
+
+.gold {
+    background-color: goldenrod;
+    color: white;
+}
+
+/* questi red-green sono i MARKERS  */
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+
+.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid;
+}
+
 
 
 /* header  */
@@ -95,21 +132,3 @@ ul {
     padding: 0px;
 }
 
-.red {
-    color: red;
-}
-
-.green {
-    color: green;
-}
-
-.circle {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    vertical-align: middle;
-    border-radius: 50%;
-    text-align: center;
-    border: 1px solid;
-}
