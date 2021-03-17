@@ -97,7 +97,7 @@ main {
 /* header del contenitore 2 */
 #header02 {
     padding: 10px;   
-    margin: 5px 30px;
+    margin: 5px 20px;
 }
 
 /* button header  */
@@ -125,7 +125,7 @@ hr {
 /* section 2 grossa - comprensiva di 3 ramificazioni */
 .section02 {
     line-height: 20px;
-    padding: 0px;
+    padding: 0px 0px 50px;
     margin: 5px 30px;
 }
 
