@@ -13,8 +13,7 @@ body {
 .radius {
     display: inline-block;
     font: 400 13.3333px Arial;
-    border-style: outset;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     margin: 10px;
 }
